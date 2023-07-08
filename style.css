@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #000;
 }
 
-.site-wrap {
+.site-wrap * {
     box-sizing: border-box;
 }
 
@@ -82,6 +82,10 @@ h1, h2, h3, h4, h5, h6 {
 .header .menu ul li {
     margin: 0 48px 0 0;
     display: inline-block;
+}
+
+body .site-wrap .header .menu ul li.portfolio {
+    margin: 0 0 0 0;
 }
 
 .header .menu ul li.current a {
@@ -240,7 +244,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .landing-hero .avatar {
     width: 50%;
-    padding-left: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 .landing-hero .hero-img {
