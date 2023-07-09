@@ -359,6 +359,53 @@ body .site-wrap .header .menu ul li.portfolio {
     font-size: 24px;
 }
 
+.about-wrap {
+    width: 100%;
+    height: auto;
+}
+
+.about {
+    width: 100%;
+    height: auto;
+    padding-top: 112px;
+}
+
+.about-inner-wrap {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about .left-about {
+    width: 50%;
+    padding: 60px;
+}
+
+.about .right-about {
+    width: 50%;
+    padding: 60px;
+}
+
+.about .about-title {
+    margin-bottom: 25px;
+}
+
+.about-title span {
+    font-size: 22px;
+    color: #f75023;
+    display: inline-block;
+    font-weight: 500;
+    font-family: 'Jost', 'Open Sans', sans-serif;
+    margin-bottom: 6px;
+}
+
+.about-title h3 {
+    font-size: 40px;
+    max-width: 90%;
+    line-height: 1.25;
+}
 
 
 @media (max-width: 1600px) {
