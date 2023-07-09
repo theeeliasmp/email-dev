@@ -407,6 +407,10 @@ body .site-wrap .header .menu ul li.portfolio {
     line-height: 1.25;
 }
 
+.about-title .right-about .about-bio {
+    margin-bottom: 45px;
+}
+
 
 @media (max-width: 1600px) {
     body {
