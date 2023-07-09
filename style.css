@@ -312,6 +312,8 @@ body .site-wrap .header .menu ul li.portfolio {
     width: 100%;
     height: auto;
     margin-bottom: 60px;
+    clear: both;
+    float: left;
 }
 
 .skills-list .list {
@@ -324,6 +326,7 @@ body .site-wrap .header .menu ul li.portfolio {
 .skills-list ul {
     margin: 0 0 0 -70px;
     list-style-type: none;
+    padding-inline-start: 0;
 }
 
 .skills-list ul li {
