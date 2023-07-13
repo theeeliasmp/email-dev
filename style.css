@@ -495,6 +495,31 @@ body .site-wrap .header .menu ul li.portfolio {
     display:block;
   }
 
+  .footer-wrap {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer {
+    width: 100%;
+    height: auto;
+    /* background-color: #b5d3e7; */
+    background: radial-gradient(ellipse at top, #d1f1fc 0%, #b2cbeb 40%, #96beae 100%);
+    padding: 57px 0px 61px 0px;
+  }
+
+  .footer-card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-card p {
+    color: #f6fdff;
+  }
+
 @media (max-width: 1600px) {
     body {
         font-size: 16px;
