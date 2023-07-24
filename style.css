@@ -554,11 +554,129 @@ body .site-wrap .header .menu ul li.portfolio {
     .container {
         max-width: 1170px;
     }
+
+    .landing-hero .hello h3 {
+        font-size: 25px;
+    }
+
+    .landing-hero .name {
+        margin-bottom: 14px;
+    }
+
+    .landing-hero .name h3 {
+        font-size: 60px;
+    }
+
+    .landing-hero .job {
+        margin-bottom: 25px;
+    }
+
+    .landing-hero .job  p {
+       font-size: 19px;
+    }
+
+    .landing-hero .text {
+        margin-bottom: 30px;
+    }
+
+    .landing-hero .text p {
+        font-size: 16px;
+    }
+
+    .landing-hero .button-container a {
+        padding: 10px 35px 9px 35px;
+    }
+
+    .landing-hero .avatar img {
+        max-height: 400px;
+    }
+
 }
 
 
 @media (max-width: 1040px) {
     .container {
         padding: 0px 20px;
+    }
+
+    .landing-hero .landing-content {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .landing-hero .details {
+        width: 100%;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .landing-hero .hello h3 {
+        font-size: 25px;
+    }
+
+    .landing-hero .name {
+        margin-bottom: 11px;
+    }
+
+    .landing-hero .name h3 {
+        font-size: 55px;
+    }
+
+    .landing-hero .job {
+        margin-bottom: 23px;
+    }
+
+    .landing-hero .job  p {
+        font-size: 23px;
+     }
+
+     .landing-hero .text p {
+        font-size: 20px;
+    }
+
+    .landing-hero .button-container {
+        justify-content: center;
+    }
+
+    .landing-hero .avatar {
+        padding: 0px;
+        width: auto;
+        margin-bottom: 30px;
+    }
+
+    .landing-hero .avatar img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0px 20px;
+    }
+
+    .landing-hero .hello h3 {
+        font-size: 21px;
+    }
+
+    .landing-hero .name h3 {
+        font-size: 42px;
+    }
+
+    .landing-hero .job {
+        margin-bottom: 15px;
+    }
+
+    .landing-hero .job  p {
+        font-size: 18px;
+     }
+
+    .landing-hero .text p {
+        font-size: 20px;
+    }
+
+    .landing-hero .avatar img {
+        max-width: 220px;
+        max-height: 220px;
     }
 }
