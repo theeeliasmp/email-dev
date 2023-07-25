@@ -686,6 +686,15 @@ body .site-wrap .header .menu ul li.portfolio {
         max-height: 400px;
     }
 
+    .skills-title span {
+        font-size: 22px;
+    }
+
+    .skills-title h3 {
+        margin-bottom: 16px;
+        font-size: 38px;
+    }
+
 }
 
 
@@ -770,6 +779,14 @@ body .site-wrap .header .menu ul li.portfolio {
     .landing-hero .avatar img {
         max-width: 300px;
         max-height: 300px;
+    }
+
+    .skills-title span {
+        font-size: 20px;
+    }
+
+    .skills-title h3 {
+        font-size: 35px;
     }
 
     .skills-list ul {
