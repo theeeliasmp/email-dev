@@ -834,6 +834,10 @@ body .site-wrap .header .menu ul li.portfolio {
         padding: 0px 20px;
     }
 
+    .landing-hero {
+        margin-bottom: 130px;
+    }
+
     .landing-hero .hello h3 {
         font-size: 21px;
     }
