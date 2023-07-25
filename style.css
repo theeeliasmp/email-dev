@@ -771,6 +771,16 @@ body .site-wrap .header .menu ul li.portfolio {
         max-width: 300px;
         max-height: 300px;
     }
+
+    .skills-list ul {
+        margin: 0px;
+    }
+
+    .skills-list ul li {
+        width: 100%;
+        padding-left: 0px;
+        margin-bottom: 40px;
+    }
 }
 
 @media (max-width: 768px) {
