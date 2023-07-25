@@ -64,20 +64,45 @@ ul {
     width: 100%; /* Full width */
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
     z-index: 2;
+    padding: 16px 0;
   }
-  
-  /* Style the navbar links */
+
   #navbar a {
     float: left;
     display: block;
     color: white;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    text-decoration: none;
+  }
+
+  #navbar a:hover {
+    color: #f75023;
+    -webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+  }
+
+  #navbar a:hover span{
+    color: #f75023;
+    -webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+  }
+  
+  /* Style the navbar links */
+  .mobile-navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
     text-decoration: none;
   }
   
-  #navbar a:hover {
+  .mobile-navbar a:hover {
     color: #f75023;
   }
 
@@ -114,19 +139,36 @@ ul {
 
 .mobile-navbar a {
     color: white;
+    text-decoration: none;
 }
 
-  .dropdown-icon {
-    display: inline-block;
+.mobile-nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+}
+
+.nav-link {
+    transition: 0.7s ease;
+}
+
+.hamburger {
+    display: none;
     cursor: pointer;
-  }
-  
-  .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
+    z-index: 11;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-trasition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     background-color: white;
-    margin: 6px 0;
-  }
+}
 
 .header {
     position: fixed;
@@ -648,6 +690,30 @@ body .site-wrap .header .menu ul li.portfolio {
 
     .mobile-navbar {
         display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .mobile-nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 38px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #333;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .mobile-nav-menu.active {
+        left: 0;
     }
 
     .landing-hero .landing-content {

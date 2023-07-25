@@ -7,3 +7,11 @@ function scrollFunction() {
     document.getElementById("navbar").style.top = "-50px";
   }
 }
+
+const hamburger = document.querySelector(".hamburger");
+const mobileNavMenu = document.querySelector(".mobile-nav-menu");
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  mobileNavMenu.classList.toggle("active");
+})
