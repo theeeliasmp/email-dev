@@ -495,7 +495,7 @@ body .site-wrap .header .menu ul li.portfolio {
 
 .about .left-about {
     width: 50%;
-    padding: 60px;
+    padding-right: 60px;
 }
 
 .about .right-about {
@@ -781,6 +781,35 @@ body .site-wrap .header .menu ul li.portfolio {
         padding-left: 0px;
         margin-bottom: 40px;
     }
+
+    .about-inner-wrap {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about .left-about {
+        padding-right: 0px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .about .left-about img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .about .right-about {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .portfolio-title span {
+        font-size: 20px;
+    }
+
+    .portfolio-title h3 {
+        font-size: 35px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -812,4 +841,30 @@ body .site-wrap .header .menu ul li.portfolio {
         max-width: 220px;
         max-height: 220px;
     }
+
+    .about {
+        padding-top: 50px;
+    }
+
+    .portfolio-wrap .portfolio {
+        padding-top: 115px;
+        margin-bottom: 90px;
+    }
+
+    .portfolio-sub-sections {
+        padding-top: 55px;
+        padding-bottom: 45px;
+    }
+
+    .portfolio-project-list .gallery {
+        grid-template-columns: 1fr;
+        
+    }
+
+    .portfolio-project-list .gallery .grid-item {
+        max-width: 100%;
+        max-height: auto;
+    }
+
+  
 }
