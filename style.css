@@ -530,8 +530,18 @@ body .site-wrap .header .menu ul li.portfolio-link {
     line-height: 1.25;
 }
 
-.about-title .right-about .about-bio {
+.right-about .about-bio {
     margin-bottom: 45px;
+}
+
+.about-social-icons .social-icon {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.about-social-icons .social-icon img {
+    width: 38px;
 }
 
 .portfolio-wrap {
