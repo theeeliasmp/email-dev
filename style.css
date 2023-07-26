@@ -212,7 +212,7 @@ ul {
     display: inline-block;
 }
 
-body .site-wrap .header .menu ul li.portfolio {
+body .site-wrap .header .menu ul li.portfolio-link {
     margin: 0 0 0 0;
 }
 
@@ -534,6 +534,25 @@ body .site-wrap .header .menu ul li.portfolio {
     margin-bottom: 45px;
 }
 
+.portfolio-wrap {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+}
+
+.portfolio {
+    
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    padding-top: 185px;
+    margin-bottom: 165px;
+    position: relative;
+    
+}
+
 .portfolio-title {
     text-align: center;
     margin: 0px auto;
@@ -623,6 +642,8 @@ body .site-wrap .header .menu ul li.portfolio {
   .footer-wrap {
     width: 100%;
     height: auto;
+    clear: both;
+    float: left;
   }
 
   .footer {
