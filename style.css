@@ -420,7 +420,7 @@ body .site-wrap .header .menu ul li.portfolio {
     width: 100%;
     height: auto;
     clear: both;
-    float: left;
+   float: left;
 }
 
 .skills-list {
@@ -428,7 +428,7 @@ body .site-wrap .header .menu ul li.portfolio {
     height: auto;
     margin-bottom: 60px;
     clear: both;
-    float: left;
+   float: left;
 }
 
 .skills-list .list {
@@ -477,12 +477,15 @@ body .site-wrap .header .menu ul li.portfolio {
 .about-wrap {
     width: 100%;
     height: auto;
+    clear: both;
+   float: left;
 }
 
 .about {
     width: 100%;
     height: auto;
     padding-top: 112px;
+    
 }
 
 .about-inner-wrap {
@@ -500,7 +503,7 @@ body .site-wrap .header .menu ul li.portfolio {
 
 .about .left-about img {
     border-radius: 10px;
-    max-height: 800px;
+    max-height: 700px;
 }
 
 .about .right-about {
