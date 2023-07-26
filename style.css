@@ -826,6 +826,10 @@ body .site-wrap .header .menu ul li.portfolio-link {
         max-height: 300px;
     }
 
+    .skills-header {
+        padding-top: 90px;
+    }
+
     .skills-title span {
         font-size: 20px;
     }
@@ -909,7 +913,7 @@ body .site-wrap .header .menu ul li.portfolio-link {
     }
 
     .skills-header {
-        padding-top: 110px;
+        padding-top: 80px;
         margin-bottom: 100px;
     }
 
