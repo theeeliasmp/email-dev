@@ -892,6 +892,10 @@ body .site-wrap .header .menu ul li.portfolio-link {
         margin-bottom: 100px;
     }
 
+    .landing-hero .background {
+        margin-top: 10px;
+    }
+
     .landing-hero .hello h3 {
         font-size: 21px;
     }
@@ -913,7 +917,7 @@ body .site-wrap .header .menu ul li.portfolio-link {
     }
 
     .landing-hero .avatar {
-        margin-bottom: 10px;
+        margin-bottom: 8px;
     }
 
     .landing-hero .avatar img {
