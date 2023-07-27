@@ -115,6 +115,9 @@ ul {
     left: 0px;
     display: none;
     z-index: 10;
+    clear:both;
+    float: left;
+    
 }
 
 .mobile-navbar .mobile-navbar-inner {
@@ -250,6 +253,8 @@ body .site-wrap .header .menu ul li.portfolio-link {
 .landing-home {
     width: 100%;
     height: auto;
+    clear: both;
+    float: left;
 }
 
 .landing-hero {
