@@ -400,6 +400,9 @@ body .site-wrap .header .menu ul li.portfolio-link {
     height: auto;
     padding-top: 180px;
     margin-bottom: 60px;
+    clear: both;
+    float: left;
+    position: relative;
 }
 
 .skills-title {
@@ -931,8 +934,8 @@ body .site-wrap .header .menu ul li.portfolio-link {
     }
 
     .skills-header {
-        padding-top: 80px;
-        margin-bottom: 100px;
+        padding-top: 10px;
+        margin-bottom: 80px;
     }
 
     .about {
