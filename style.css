@@ -874,6 +874,11 @@ body .site-wrap .header .menu ul li.portfolio-link {
         padding: 0px;
     }
 
+    .about-title h3 {
+        font-size: 35px;
+        max-width: 100%;
+    }
+
     .portfolio-title span {
         font-size: 20px;
     }
