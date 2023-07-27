@@ -912,8 +912,11 @@ body .site-wrap .header .menu ul li.portfolio-link {
         font-size: 18px;
     }
 
-    .landing-hero .avatar img {
+    .landing-hero .avatar {
         margin-bottom: 10px;
+    }
+
+    .landing-hero .avatar img {
         max-width: 220px;
         max-height: 220px;
     }
