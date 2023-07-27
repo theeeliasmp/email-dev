@@ -888,10 +888,6 @@ body .site-wrap .header .menu ul li.portfolio-link {
         padding: 0px 20px;
     }
 
-    .landing-hero .background {
-        margin-top: 40px;
-    }
-
     .landing-hero {
         margin-bottom: 100px;
     }
@@ -913,7 +909,7 @@ body .site-wrap .header .menu ul li.portfolio-link {
      }
 
     .landing-hero .text p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .landing-hero .avatar img {
