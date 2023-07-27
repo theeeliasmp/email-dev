@@ -938,8 +938,12 @@ body .site-wrap .header .menu ul li.portfolio-link {
         margin-bottom: 80px;
     }
 
+    .skills-list ul li {
+        margin-bottom: 20px;
+    }
+
     .about {
-        padding-top: 40px;
+        padding-top: 46px;
     }
 
     .portfolio-wrap .portfolio {
