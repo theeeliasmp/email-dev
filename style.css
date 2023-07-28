@@ -127,7 +127,7 @@ ul {
     clear: both;
     background-color: #333;
     border-bottom: 1px solid rgba(0,0,0,.1);
-    padding: 5px 10px 5px 20px;
+    padding: 0px 10px 0px 20px;
 }
 
 .mobile-navbar .mobile-navbar-inner-flex {
@@ -164,12 +164,8 @@ ul {
     z-index: 11;
 }
 
-.bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    background-color: white;
+.bars {
+    height: 40px;
 }
 
 .header {
@@ -763,8 +759,10 @@ body .site-wrap .header .menu ul li.portfolio-link {
     }
 
     .hamburger {
-        display: block;
-        padding: 5px 10px 5px 40px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 5px 0px 4px 0px;
     }
 
     .mobile-nav-menu {

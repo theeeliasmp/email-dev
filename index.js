@@ -10,20 +10,16 @@ function scrollFunction() {
 
 const hamburger = document.querySelector(".hamburger");
 const mobileNavMenu = document.querySelector(".mobile-nav-menu");
-const bar = document.querySelector(".bar");
+
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   mobileNavMenu.classList.toggle("active");
 })
 
-bar.addEventListener("click", () => {
-  hamburger.classList.toggle("active");
-  mobileNavMenu.classList.toggle("active");
-})
 
 window.onclick = function(event) {
-  if (!event.target.matches('.hamburger') && !event.target.matches('.bar')) {
+  if (!event.target.matches('.hamburger') && !event.target.matches('.bars')) {
     hamburger.classList.remove("active");
     mobileNavMenu.classList.remove("active");
   }
