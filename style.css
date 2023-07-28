@@ -667,7 +667,7 @@ body .site-wrap .header .menu ul li.portfolio-link {
     width: 100%;
     height: auto;
     /* background-color: #b5d3e7; */
-    background: radial-gradient(ellipse at top, #d1f1fc 0%, #b2cbeb 40%, #96beae 100%);
+    background-image: url('../email-dev/Images/footer.png');
     padding: 57px 0px 61px 0px;
   }
 
