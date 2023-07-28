@@ -896,7 +896,7 @@ body .site-wrap .header .menu ul li.portfolio-link {
     }
 
     .landing-hero {
-        margin-bottom: 100px;
+        margin-bottom: 0px;
     }
 
     .landing-hero .background {
@@ -933,7 +933,7 @@ body .site-wrap .header .menu ul li.portfolio-link {
     }
 
     .skills-header {
-        padding-top: 0px;
+        padding-top: 100px;
         margin-bottom: 60px;
     }
 
