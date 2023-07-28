@@ -393,6 +393,8 @@ body .site-wrap .header .menu ul li.portfolio-link {
 .skills-header-wrap {
     width: 100%;
     height: auto;
+    clear: both;
+    float: left;
 }
 
 .skills-header {
