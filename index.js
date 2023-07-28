@@ -15,3 +15,11 @@ hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   mobileNavMenu.classList.toggle("active");
 })
+
+window.onclick = function(event) {
+  if (!event.target.matches('.hamburger')) {
+    hamburger.classList.remove("active");
+    mobileNavMenu.classList.remove("active");
+  }
+    
+}
