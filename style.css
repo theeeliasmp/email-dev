@@ -165,7 +165,8 @@ ul {
 }
 
 .bars {
-    height: 40px;
+    max-height: 40px;
+    max-width: 40px;
 }
 
 .header {
