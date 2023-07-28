@@ -668,6 +668,11 @@ body .site-wrap .header .menu ul li.portfolio-link {
     height: auto;
     /* background-color: #b5d3e7; */
     background-image: url('../email-dev/Images/footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    position: absolute;
     padding: 57px 0px 61px 0px;
   }
 
