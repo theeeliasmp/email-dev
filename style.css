@@ -127,7 +127,7 @@ ul {
     clear: both;
     background-color: #333;
     border-bottom: 1px solid rgba(0,0,0,.1);
-    padding: 10px 20px 10px 20px;
+    padding: 5px 20px 5px 20px;
 }
 
 .mobile-navbar .mobile-navbar-inner-flex {
@@ -169,8 +169,6 @@ ul {
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    -webkit-trasition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
     background-color: white;
 }
 
@@ -766,6 +764,7 @@ body .site-wrap .header .menu ul li.portfolio-link {
 
     .hamburger {
         display: block;
+        padding: 5px 10px;
     }
 
     .mobile-nav-menu {
