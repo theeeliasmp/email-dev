@@ -638,12 +638,8 @@ body .site-wrap .header .menu ul li.portfolio-link {
     
         display: flex;
         align-items: center;
+        max-height: auto;
         justify-content: center;
-        border: 3px solid #f75023;
-        border-radius: 92px;
-        max-width: 360px;
-        max-height: 360px;
-    justify-content: center;
       
       
   }
@@ -655,6 +651,7 @@ body .site-wrap .header .menu ul li.portfolio-link {
     padding:0; 
     margin:0; 
     display:block;
+    border-radius: 8px;
   }
 
   .footer-wrap {
