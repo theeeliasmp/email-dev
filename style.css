@@ -383,6 +383,7 @@ body .site-wrap .header .menu ul li.portfolio-link {
 
 .landing-hero .avatar img {
     max-height: 580px;
+    border-radius: 60px;
 }
 
 .skills-header-wrap {
