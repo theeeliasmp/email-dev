@@ -59,7 +59,7 @@ ul {
 }
 
 #navbar {
-    background-color: rgb(51, 51, 51);; /* Dark background color */
+    background-color: rgb(39, 49, 66); /* Dark background color */
     position: fixed; /* Make it stick/fixed */
     top: -50px; /* Hide the navbar 50 px outside of the top view */
     width: 100%; /* Full width */
@@ -125,7 +125,7 @@ ul {
     height: auto;
     float: left;
     clear: both;
-    background-color: rgb(51, 51, 51);;
+    background-color: rgb(39, 49, 66);
     border-bottom: 1px solid rgba(0,0,0,.1);
     padding: 0px 10px 0px 20px;
 }
@@ -208,7 +208,7 @@ ul {
 #navbar .elias-logo-color {
     color: #9ff331;
     
-    background: -webkit-linear-gradient(90deg, rgba(241,117,68,1) 0%, rgba(246,194,20,1) 35%, rgba(159,243,49,1) 92%, rgba(102,228,16,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(254, 72, 0) 0%, rgb(255, 196, 0) 42%, rgb(47, 255, 0) 92%, rgb(37, 219, 0) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
