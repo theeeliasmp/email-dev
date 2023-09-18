@@ -742,7 +742,7 @@ body .site-wrap .header .menu ul li.portfolio-link {
 @keyframes shadow-and-small-shrink {
     /* You could think of as "step 1" */
     0% {
-        filter: drop-shadow(5px 5px 5px #535353);
+        filter: drop-shadow(5px 5px 5px #a8a8a8);
         transform:scale(1.015);
     }
     /* You could think of as "step 2" */
