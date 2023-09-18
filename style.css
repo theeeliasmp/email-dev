@@ -731,8 +731,23 @@ body .site-wrap .header .menu ul li.portfolio-link {
     10% {
         
             filter: drop-shadow(5px 5px 5px #c5c5c5);
-            transform:scale(1.007);
+            transform:scale(1.003);
     }
+    20% {
+        
+        filter: drop-shadow(5px 5px 5px #c5c5c5);
+        transform:scale(1.007);
+}
+30% {
+        
+    filter: drop-shadow(5px 5px 5px #c5c5c5);
+    transform:scale(1.01);
+}
+40% {
+        
+    filter: drop-shadow(5px 5px 5px #c5c5c5);
+    transform:scale(1.014);
+}
     /* You could think of as "step 2" */
     100% {
         filter: drop-shadow(5px 5px 5px #535353);
