@@ -731,7 +731,7 @@ body .site-wrap .header .menu ul li.portfolio-link {
     10% {
         
             filter: drop-shadow(5px 5px 5px #c5c5c5);
-            transform:scale(1.003);
+            transform:scale(1.001);
     }
     20% {
         
