@@ -720,7 +720,7 @@ body .site-wrap .header .menu ul li.portfolio-link {
   }
 
   .grid-item img:hover {
-    animation: shadow-and-small-grow 4s;
+    animation: shadow-and-small-grow 2s;
   }
 
   @keyframes shadow-and-small-grow {
@@ -728,42 +728,19 @@ body .site-wrap .header .menu ul li.portfolio-link {
     0% {
         filter: drop-shadow(5px 5px 5px #c5c5c5);
     }
-    10% {
-        
-            filter: drop-shadow(5px 5px 5px #c5c5c5);
-            transform:scale(1.001);
-    }
-    20% {
-        
-        filter: drop-shadow(5px 5px 5px #c5c5c5);
-        transform:scale(1.005);
-}
-30% {
-        
-    filter: drop-shadow(5px 5px 5px #c5c5c5);
-    transform:scale(1.01);
-}
-40% {
-        
-    filter: drop-shadow(5px 5px 5px #c5c5c5);
-    transform:scale(1.015);
-}
-50% {
-        
-    filter: drop-shadow(5px 5px 5px #c5c5c5);
-    transform:scale(1.022);
-}
+  
+
     /* You could think of as "step 2" */
     100% {
         filter: drop-shadow(5px 5px 5px #535353);
-        transform:scale(1.03);
+        transform:scale(1.022);
     }
 }
 @keyframes shadow-and-small-shrink {
     /* You could think of as "step 1" */
     0% {
         filter: drop-shadow(5px 5px 5px #bababa);
-        transform:scale(1.015);
+        transform:scale(1.012);
     }
     /* You could think of as "step 2" */
     100% {
@@ -1022,6 +999,21 @@ body .site-wrap .header .menu ul li.portfolio-link {
 @media (max-width: 768px) {
     .container {
         padding: 0px 20px;
+    }
+    .header .menu ul {
+        padding-inline-start: 10px;
+    }
+    .header .menu ul li {
+        margin-right: 15px;
+    }
+    .header .menu ul li a {
+        font-size: 12px;
+    }
+    .logo-font {
+        font-size: 20px;
+    }
+    .elias-logo {
+        font-size: 20px;
     }
 
     .landing-hero {
