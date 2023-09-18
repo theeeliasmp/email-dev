@@ -731,12 +731,12 @@ body .site-wrap .header .menu ul li.portfolio-link {
     10% {
         
             filter: drop-shadow(5px 5px 5px #c5c5c5);
-        
+            transform:scale(1.007);
     }
     /* You could think of as "step 2" */
     100% {
         filter: drop-shadow(5px 5px 5px #535353);
-        transform:scale(1.05);
+        transform:scale(1.03);
     }
 }
 @keyframes shadow-and-small-shrink {
