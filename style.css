@@ -736,7 +736,7 @@ body .site-wrap .header .menu ul li.portfolio-link {
     20% {
         
         filter: drop-shadow(5px 5px 5px #c5c5c5);
-        transform:scale(1.007);
+        transform:scale(1.005);
 }
 30% {
         
@@ -746,7 +746,12 @@ body .site-wrap .header .menu ul li.portfolio-link {
 40% {
         
     filter: drop-shadow(5px 5px 5px #c5c5c5);
-    transform:scale(1.014);
+    transform:scale(1.015);
+}
+50% {
+        
+    filter: drop-shadow(5px 5px 5px #c5c5c5);
+    transform:scale(1.022);
 }
     /* You could think of as "step 2" */
     100% {
